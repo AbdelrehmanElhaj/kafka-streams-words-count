@@ -8,7 +8,7 @@ Here is a simple diagram for this application:
 The Java application will read sentences from the `sentences` topic in Kafka and will count the amount of times each word has appeared in all the sentences. Then it will stream the latest count for each word into the `word-count` topic, which we will read with a Kafka console consumer.
 ## Requirements
 * Docker: We will use it to start Kafka and create the topics
-* Java 15
+* Java 17
 * An IDE like Intellij IDEA
 
 ## Running the project
