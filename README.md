@@ -20,7 +20,7 @@ docker compose -f ./docker-compose.yml up
 ```
 ### Building and starting the application
 ```shell
-./mvnw compile exec:java -Dexec.mainClass="com.github.programmingwithmati.kafka.streams.wordcount.WordCountApp"
+./mvnw compile exec:java -Dexec.mainClass="div.hdr.WordCountApp"
 ```
 ### Publishing a message and consuming the results
 1. we need to connect to the docker container to run commands on a CLI:
